@@ -30,6 +30,19 @@ public class WrapperClassEx {
 		System.out.println(value2);
 		System.out.println(value3);
 		
+		System.out.println("-------------------------------------------------");
+		
+		
+		//Using Utility method from Wrapper class
+		int parseInt = Integer.parseInt("123");
+		double parseDouble = Double.parseDouble("25.364782");
+		boolean parseBoolean = Boolean.parseBoolean("true");
+		
+		System.out.println(parseInt);
+		System.out.println(parseDouble);
+		System.out.println(parseBoolean);
+		
+		
 	
 	}
 
